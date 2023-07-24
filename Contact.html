@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Information</title>
+		<link rel="stylesheet" href="TiddyTouch.css"/>
+	</head>
+	<body>
+		<header>
+			<div>
+				<img
+					id="TiddyTouchLogo"
+					alt="Tiddy Touch Logo"
+					src="../Images/TiddyTouchLogo.jpg"
+					class="h1-Image"
+				/>
+				<h1>Contact Information:</h1>
+			</div>
+			<h1>
+				Get in touch with the cleaning company that is most reliable and
+				empathetic.
+			</h1>
+		</header>
+    <nav>
+      <ul>
+        <li>
+          <a href="TiddyTouch.html">Home</a></li>
+        <li>
+          <a href="CleaningUtensils.html">Cleaning Utensils</a>
+        </li>
+        <li>
+          <a href="Business.html" >Our Business</a>
+        </li>
+        <li >
+          <a href="Service.html"> Our Service </a>
+        </li>
+        <li>
+          <a href="Estimate.html" >Estimates</a>
+        </li>
+
+        <li>
+          <a href="Contact.html" >Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+		<section id="connect">
+			<h2>Get in touch with us for the future Cleaning of your home</h2>
+			<form
+				method="GET"
+				action="https://roan-equinox-chauffeur.glitch.me/form_process"
+			>
+				<label for="name-input">Name:</label>
+				<input type="text" id="name-input" name="name" required /><br />
+				<p id="hello-message"></p>
+
+				<script src="TiddyTouch.js"></script>
+
+				<label for="email-input">Email:</label>
+				<input
+					type="email"
+					name="email"
+					id="email-input"
+					required
+					onmouseover="activateScript()"
+				/><br />
+				<p id="email-message"></p>
+				<script>
+					
+				</script>
+
+				<br />
+
+				<label for="message-input">Message:</label>
+				<textarea name="message" id="message-input" required></textarea><br />
+				<span id="char-count"></span>
+
+				<script>
+				
+				</script>
+
+				<input type="submit" class="submit" value="Send" />
+			</form>
+		</section>
+
+		<section id="image">
+			<h2>Images</h2>
+			<figure class="image-container">
+				<img
+					src="../Images/ContactImage.jpg"
+					alt="Cleaning Tools and Essentials"
+				/>
+				<figcaption>
+					<span
+						>Special cleaning equipment is used to break down into a
+						multipurpose cleaner.</span
+					>
+				</figcaption>
+			</figure>
+
+			<figure class="image-container">
+				<img
+					src="../Images/CleanPro.jpg"
+					alt="Professional cleaner using a cleaning solution to clean a countertop"
+				/>
+				<figcaption>
+					<span
+						>A professional cleaner using a cleaning solution to clean a
+						countertop</span
+					>
+				</figcaption>
+			</figure>
+
+			<figure class="image-container">
+				<img
+					src="../Images/ovenPro.jpg"
+					alt="Professional cleaner using a special product to clean an oven"
+				/>
+				<figcaption>
+					<span
+						>A professional cleaner using a special product to clean an
+						oven</span
+					>
+				</figcaption>
+			</figure>
+		</section>
+		<footer>
+			
+		</footer>
+    <script src="TiddyTouch.js"></script>
+	</body>
+</html>
