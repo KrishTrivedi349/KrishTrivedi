@@ -36,7 +36,7 @@ nav ul li a:hover {
 	position: relative;
 }
 .Omar:hover::before {
-	content: "Hi, my name is Omar Kotb, and I am here to help you find the right cleaning solution";
+	content: "Hi, my name is Omar Kotb, and and I am here to help you enhance your work.";
 	position: relative;
 	background-color: rgb(255, 157, 0);
 	padding: 5px;
@@ -153,7 +153,7 @@ p {
 body {
 	margin: 1px;
 	box-shadow: 0 0 10px rgb(0, 0, 255);
-	background-color: #14ffff;
+	background-color:rgba(255, 229, 198, 0.945);
 	text-align: center;
 	text-decoration: none;
 }
@@ -1514,5 +1514,3 @@ nav {
       margin-top: 21.5%;
       margin-bottom: 17%;
   }
-  
-
