@@ -30,7 +30,7 @@ nav ul li a:hover {
 
 .Omar {
 	margin-right: 50px;
-	color: white;
+	color:gray;
 }
 .Omar:hover {
 	position: relative;
@@ -51,7 +51,7 @@ nav ul li a:hover {
 
 .Krish {
 	margin-right: 50px;
-	color: white;
+	color: gray;
 }
 .KrishL:hover {
 	position: relative;
@@ -61,7 +61,7 @@ nav ul li a:hover {
 	position: relative;
 	top: -10px;
 	left: 10;
-	background-color: rgb(0, 251, 255);
+	background-color: rgb(255, 157, 0);
 	padding: 10px;
 	z-index: 1;
 	text-align: center;
