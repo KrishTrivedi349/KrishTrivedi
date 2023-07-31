@@ -74,7 +74,7 @@ nav ul li a:hover {
 }
 
 header h1 {
-	color: blue;
+	color: rgb(129, 185, 115);
 	text-align: center;
 	font-family: "Times New Roman";
 	align-items: center;
@@ -90,7 +90,7 @@ p {
 }
 
 #TiddyTouchLogo {
-	border: 2px solid blue;
+	border: 2px solid ;
 	display: inline;
 	width: 150px;
 	margin-right: 20px;
@@ -159,7 +159,7 @@ body {
 }
 
 body h1 {
-	color: blue;
+	color: rgb(129, 185, 115);
 	text-align: center;
 	font-family: "Times New Roman";
 	align-items: center;
@@ -167,7 +167,7 @@ body h1 {
 
 h3 {
 	font-size: 22px;
-	color: blue;
+	color: rgb(129, 185, 115);
 }
 
 nav ul {
@@ -258,7 +258,7 @@ h2 {
 	font-size: 18px;
 	margin-bottom: 30px;
 	font-size: 24px;
-	color: #1500ff;
+	color:  rgb(129, 185, 115);
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -709,7 +709,7 @@ button:hover {
 /**Mobile version notes */
 @media only screen and (max-width: 600px) {
 	header h1 {
-		color: blue;
+		color:  rgb(129, 185, 115);
 		text-align: center;
 		font-family: "Times New Roman";
 		align-items: center;
@@ -826,14 +826,14 @@ button:hover {
 	}
 
 	h1 {
-		color: blue;
+		color:  rgb(129, 185, 115);
 		font-size: 20px;
 		margin-top: 0.5em;
 	}
 
 	h3 {
 		font-size: 15px;
-		color: blue;
+		color:  rgb(129, 185, 115);
 	}
 
 	body {
@@ -993,7 +993,7 @@ button:hover {
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
 		margin-top: 20px;
-		border: 2px solid blue;
+		border: 2px solid ;
 	}
 
 	.image-container {
